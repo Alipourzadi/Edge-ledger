@@ -1,0 +1,118 @@
+/* text colors */
+
+.text-primary{
+    color: #28a745;
+}
+
+.text-secondary{
+    color: #0284d0;
+}
+/* Scroll bar */
+
+::-webkit-scrollbar{
+    width: 20px;
+}
+
+::-webkit-scrollbar-track{
+    background: #f4f4f4;
+
+}
+
+::-webkit-scrollbar-thumb{
+    background: #555;
+    border-radius: 50px;
+}
+
+
+/* Button */
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px; 
+}
+.btn:hover{
+    background: #28a731;
+}
+
+.btn-primary , .bg-primary{
+    background: #28a745;
+    color: #fff;
+    
+}
+.btn-seconadry , .bg-secondary{
+    background: #0284d0;
+    color: #fff;
+    
+}
+.btn-dark , .bg-dark{
+    background: #333;
+    color: #fff;
+
+}
+.btn-light , .bg-light{
+    background: #f4f4f4;
+    color: #333;
+}
+
+.btn-outline{
+    background: transparent;
+    border: solid 1px #fff;
+    padding: 10px 100px;
+}
+/* Flex items */
+
+.flex-items{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.flex-items> div{
+    padding: 20px;
+    flex: 25%;
+}
+
+.flex-items div img{
+    border-radius: 50%;
+}
+
+/* section header */
+
+.section-header{
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-header h2{
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.section-padding{
+    padding: 20px 20px 40px;
+}
+
+/* flex-grid */
+
+.flex-grid .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.flex-grid .column{
+    flex:25%;
+    max-width: 24.9%;
+    padding: 0 4px;
+}
